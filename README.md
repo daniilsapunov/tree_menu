@@ -31,8 +31,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 4. Выполните миграции
+
 python manage.py makemigrations
+
 python manage.py makemigrations tree_menu
+
 python manage.py migrate
 
 6. Создайте суперпользователя для входа в админку
