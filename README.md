@@ -31,13 +31,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 4. Выполните миграции
+python manage.py makemigrations
+python manage.py makemigrations tree_menu
 python manage.py migrate
 
-5. Создайте суперпользователя для входа в админку
+6. Создайте суперпользователя для входа в админку
 python manage.py createsuperuser
 
 
-6. Загрузите тестовые данные из menu.json
+7. Загрузите тестовые данные из menu.json
 python manage.py loaddata menu.json
 
 ▶️ Запуск сервера разработки
