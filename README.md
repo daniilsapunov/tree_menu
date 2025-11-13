@@ -14,10 +14,11 @@
  🧰 Установка и запуск проекта
 
 1. Клонируйте репозиторий в пустую папку
-git clone https://github.com/daniilsapunov/tree-menu.git
+git clone https://github.com/daniilsapunov/tree_menu.git
+
 cd tree-menu
 
-2. Создайте и активируйте виртуальное окружение
+3. Создайте и активируйте виртуальное окружение
 Windows:
 python -m venv venv
 venv\Scripts\activate
