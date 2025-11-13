@@ -16,7 +16,7 @@
 1. Клонируйте репозиторий в пустую папку
 git clone https://github.com/daniilsapunov/tree_menu.git
 
-cd tree-menu
+cd tree_menu/testproject/ 
 
 3. Создайте и активируйте виртуальное окружение
 Windows:
