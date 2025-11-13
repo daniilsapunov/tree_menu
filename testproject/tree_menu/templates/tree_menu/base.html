@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое меню</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'tree_menu/css/menu.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Древовидное меню</h1>
+
+        {% load menu_tags %}
+
+        <nav class="main-nav">
+            <h2>Основное меню</h2>
+            {% draw_menu 'main_menu' %}
+        </nav>
+    </header>
+
+    <footer>
+        <nav class="footer-nav">
+            <h2>Меню в футере</h2>
+            {% draw_menu 'footer_menu' %}
+        </nav>
+    </footer>
+</body>
+</html>
+
+
+
