@@ -1,0 +1,255 @@
+[
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "name": "Главная",
+      "url": "/",
+      "menu_name": "main_menu",
+      "parent": null,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 2,
+    "fields": {
+      "name": "Каталог",
+      "url": "/catalog/",
+      "menu_name": "main_menu",
+      "parent": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 3,
+    "fields": {
+      "name": "О компании",
+      "url": "/about/",
+      "menu_name": "main_menu",
+      "parent": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 4,
+    "fields": {
+      "name": "Контакты",
+      "url": "/contact/",
+      "menu_name": "main_menu",
+      "parent": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 5,
+    "fields": {
+      "name": "Электроника",
+      "url": "/catalog/electronics/",
+      "menu_name": "main_menu",
+      "parent": 2,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 6,
+    "fields": {
+      "name": "Одежда",
+      "url": "/catalog/clothes/",
+      "menu_name": "main_menu",
+      "parent": 2,
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 7,
+    "fields": {
+      "name": "Книги",
+      "url": "/catalog/books/",
+      "menu_name": "main_menu",
+      "parent": 2,
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 8,
+    "fields": {
+      "name": "Смартфоны",
+      "url": "/catalog/electronics/phones/",
+      "menu_name": "main_menu",
+      "parent": 5,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 9,
+    "fields": {
+      "name": "Ноутбуки",
+      "url": "/catalog/electronics/laptops/",
+      "menu_name": "main_menu",
+      "parent": 5,
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 10,
+    "fields": {
+      "name": "Телевизоры",
+      "url": "/catalog/electronics/tv/",
+      "menu_name": "main_menu",
+      "parent": 5,
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 11,
+    "fields": {
+      "name": "Мужская",
+      "url": "/catalog/clothes/men/",
+      "menu_name": "main_menu",
+      "parent": 6,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 12,
+    "fields": {
+      "name": "Женская",
+      "url": "/catalog/clothes/women/",
+      "menu_name": "main_menu",
+      "parent": 6,
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 13,
+    "fields": {
+      "name": "История",
+      "url": "/about/history/",
+      "menu_name": "main_menu",
+      "parent": 3,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 14,
+    "fields": {
+      "name": "Команда",
+      "url": "/about/team/",
+      "menu_name": "main_menu",
+      "parent": 3,
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 15,
+    "fields": {
+      "name": "Вакансии",
+      "url": "/about/jobs/",
+      "menu_name": "main_menu",
+      "parent": 3,
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 16,
+    "fields": {
+      "name": "Apple",
+      "url": "/catalog/electronics/phones/apple/",
+      "menu_name": "main_menu",
+      "parent": 8,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 17,
+    "fields": {
+      "name": "Samsung",
+      "url": "/catalog/electronics/phones/samsung/",
+      "menu_name": "main_menu",
+      "parent": 8,
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 18,
+    "fields": {
+      "name": "Xiaomi",
+      "url": "/catalog/electronics/phones/xiaomi/",
+      "menu_name": "main_menu",
+      "parent": 8,
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 19,
+    "fields": {
+      "name": "Помощь",
+      "url": "/help/",
+      "menu_name": "footer_menu",
+      "parent": null,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 20,
+    "fields": {
+      "name": "Правила",
+      "url": "/rules/",
+      "menu_name": "footer_menu",
+      "parent": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 21,
+    "fields": {
+      "name": "Конфиденциальность",
+      "url": "/privacy/",
+      "menu_name": "footer_menu",
+      "parent": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 22,
+    "fields": {
+      "name": "FAQ",
+      "url": "/help/faq/",
+      "menu_name": "footer_menu",
+      "parent": 19,
+      "order": 0
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 23,
+    "fields": {
+      "name": "Поддержка",
+      "url": "/help/support/",
+      "menu_name": "footer_menu",
+      "parent": 19,
+      "order": 1
+    }
+  }
+]
